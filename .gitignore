@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# direnv
+**/.direnv
+/.direnv
+
+# dependencies from ./backend/* or ./frontend/*
+**/node_modules
+/node_modules
+**/.pnp
+**/.pnp.js
+
+# testing from ./backend/* or ./frontend/*
+**/coverage
+
+# next.js from ./backend/* or ./frontend/*
+**/.next/
+**/out/
+
+# production from ./backend/* or ./frontend/*
+**/build
+
+# misc from ./backend/* or ./frontend/*
+**/.DS_Store
+**/*.pem
+
+# debug from ./backend/* or ./frontend/*
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# local env files from ./backend/* or ./frontend/*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# vercel from ./backend/* or ./frontend/*
+**/.vercel
+
+**/*.trace
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.log
+**/package-lock.json
+**/yarn.lock
+**/pnpm.lock
+**/bun.lock
+**/*.bun
+
+# .env files
+**/.env
